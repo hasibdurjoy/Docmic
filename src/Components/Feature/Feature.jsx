@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { FeatureData } from "../../FakeData/FeatureData";
-import FeatureImage from "../../Images/FeatureSection.svg";
 import { Color } from "../Shared/Color/Color";
 
 const Feature = () => {
@@ -9,7 +8,12 @@ const Feature = () => {
     <Container>
       <Row>
         <Col sm={0} md={5} className="d-flex align-items-center">
-          <img src={FeatureImage} alt="" />
+          <img
+            src="https://i.ibb.co/YbJXWNQ/featured.png"
+            alt=""
+            width="80%"
+            height="80%"
+          />
         </Col>
         <Col sm={12} md={7}>
           <h5 style={{ color: `${Color.secondary}` }}>Our Hospital Feature</h5>

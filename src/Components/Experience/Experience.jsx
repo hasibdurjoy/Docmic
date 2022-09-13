@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Color } from "../Shared/Color/Color";
-import experienceImage from "./../../Images/Experience.svg";
 
 const Experience = () => {
   {
@@ -25,7 +24,12 @@ const Experience = () => {
           </p>
         </Col>
         <Col md={5} className="d-flex justify-content-lg-end">
-          <img src={experienceImage} alt="" />
+          <img
+            src="https://i.ibb.co/GF4KSV4/experience.png"
+            alt=""
+            width="80%"
+            height="80%"
+          />
         </Col>
       </Row>
     </Container>
