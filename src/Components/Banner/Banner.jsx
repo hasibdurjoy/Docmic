@@ -1,13 +1,19 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { Color } from "../Shared/Color/Color";
 import "./Banner.css";
+import BgOrnament from "./../../Images/BgOrnament.svg";
 
 const Banner = () => {
   return (
     <Container className="mx-auto">
       <Row>
-        <Col sm={12} md={6} lg={6}>
+        <Col
+          sm={12}
+          md={6}
+          lg={6}
+          className="d-flex flex-column justify-content-evenly"
+        >
           <h1 style={{ fontSize: "60px" }}>
             Your <span style={{ color: `${Color.primary}` }}>Health</span> Is
             Our <br /> Top{" "}
@@ -29,27 +35,27 @@ const Banner = () => {
                 className="text-center"
                 style={{ color: `${Color.secondary}` }}
               >
-                100+
+                262k+
               </h1>
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Recovered Patients</p>
             </div>
             <div>
               <h1
                 className="text-center"
                 style={{ color: `${Color.secondary}` }}
               >
-                100+
+                96%
               </h1>
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Satisfaction Rate</p>
             </div>
             <div>
               <h1
                 className="text-center"
                 style={{ color: `${Color.secondary}` }}
               >
-                100+
+                86+
               </h1>
-              <p>Lorem ipsum dolor sit amet,</p>
+              <p>Expert Doctors</p>
             </div>
           </div>
         </Col>
@@ -67,16 +73,6 @@ const Banner = () => {
               className="px-3 pb-3"
             />
           </div>
-          {/* <Card style={{ width: "18rem" }}>
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card> */}
         </Col>
       </Row>
     </Container>

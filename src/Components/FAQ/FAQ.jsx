@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Accordion, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { FaqData } from "../../FakeData/FaqData";
 import { Color } from "../Shared/Color/Color";
 
