@@ -32,7 +32,7 @@ function Header() {
             <Nav.Link href="#deets">Pages</Nav.Link>
             <Nav.Link href="#deets">Blog</Nav.Link>
             <Nav.Link href="#deets">Contacts</Nav.Link>
-            <Button variant="primary">Free Contact</Button>
+            <Button variant="primary">Free Consulation</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

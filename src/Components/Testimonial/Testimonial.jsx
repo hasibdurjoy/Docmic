@@ -36,7 +36,7 @@ const Testimonial = () => {
         infinite={true}
         autoPlaySpeed={1000}
         keyBoardControl={true}
-        customTransition="transform(ease-in-out)"
+        customTransition="transform 2000ms ease-in-out"
         transitionDuration={1000}
         containerClass="carousel-container"
         dotListClass="custom-dot-list-style"

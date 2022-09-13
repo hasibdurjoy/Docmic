@@ -26,6 +26,7 @@ const Banner = () => {
           <Button
             className="mt-4"
             style={{ backgroundColor: `${Color.primary}`, width: "300px" }}
+            onClick={() => window.open("https://www.healthbondhu.com/")}
           >
             Go somewhere
           </Button>
